@@ -112,7 +112,23 @@ body {
 
 .in-exp-btn {}
 
-.add-descri {}
+.add-descri,
+.add-summ,
+.submit,
+.in-exp-btn {
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+}
+
+.submit {
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #DCDCDC;
+}
 
 .add-summ {}
 
@@ -194,5 +210,14 @@ body {
         padding: 10px;
         margin-bottom: 10px;
         font-size: 19px;
+    }
+
+    .info-item {
+        flex: 100%;
+        margin: 8px;
+    }
+
+    .information {
+        width: 100%;
     }
 }

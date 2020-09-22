@@ -351,8 +351,11 @@ let controller = ((budgetCtrl, UIctrl) => {
                 totalExp: 0,
                 persentage: 0,
             });
+
         }
     }
 
 })(budgetController, UIcontroller);
+
 controller.init();
+
